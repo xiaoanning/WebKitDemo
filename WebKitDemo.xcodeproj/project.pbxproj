@@ -26,6 +26,7 @@
 		4D6CA3141F72113900E0A17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6CA3171F72113900E0A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6CA3191F72113900E0A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6CA3201F72138E00E0A17F /* ReadMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		4D6CA3071F72113900E0A17F /* WebKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4D6CA31F1F72138300E0A17F /* Resource */,
 				4D6CA30B1F72113900E0A17F /* AppDelegate.h */,
 				4D6CA30C1F72113900E0A17F /* AppDelegate.m */,
 				4D6CA30E1F72113900E0A17F /* ViewController.h */,
@@ -77,6 +79,14 @@
 				4D6CA3091F72113900E0A17F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D6CA31F1F72138300E0A17F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D6CA3201F72138E00E0A17F /* ReadMe.h */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8429SBRZW5;
 				INFOPLIST_FILE = WebKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.WebKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8429SBRZW5;
 				INFOPLIST_FILE = WebKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.WebKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
